@@ -1,0 +1,10 @@
+        /*
+        htmlBody = "<HTML>" +
+	    "<HEAD><TITLE>Hello world</TITLE></HEAD>" +
+	    "<BODY>yo son</BODY></HTML>";
+	outToClient.writeBytes("HTTP/1.0 200 OK\r\n");
+	outToClient.writeBytes("Content-Type: " + contentType(ext) + "\r\n");
+	outToClient.writeBytes("Content-Length: " + htmlBody.length() + "\r\n");
+	outToClient.writeBytes("\r\n");
+	outToClient.write(htmlBody.getBytes(), 0, htmlBody.length());
+        */
